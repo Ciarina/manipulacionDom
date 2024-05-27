@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manipulacion del DOM skldjlksjgd</title>
+</head>
+<body>
+<form id="formito">
+    <h1 pepe="verde">Manipulacion delfsdfsdf DOM basica-body</h1>
+    <p class="abc">Parrafo 1</p>    
+    <p class="pclass" >Parrafo pclass1</p>
+    <p id="pid">Parrafo pid1</p>                 <!--este lo voy a cambiar por imagen-->
+    <input placeholder="Escribir algo aqui" />
+
+    <h1> Interactuando con el usuario</h1>
+    <input onchange="console.log('ingrese valor1')" id="var1" placeholder="Ingrese un valor" /> 
+    <input id="var2" placeholder="Ingrese un valor" />
+    <button id="btn1" onclick="console.log('presione click en boton1')">Calcular1</button> <!--manera 1 ejemplo de evento onclick -->
+    <button id="btn2" onclick="btnClick()">Calcular2</button>                              <!--manera 2 evento en html - funcion en JS -->
+    <button id="btn3">Calcular3</button>                               <!--manera 3 mas prolija - eventlistener desde JS-->
+    <!-- <button id="btn3" type="button">Calcular3</button>    con type=button indico que no es submit para que no recargue la pantalla-->
+    <p id="res1"></p>
+    <p id="res2"></p>
+</form>
+
+    <script src="./script.js"> </script>
+
+</body>
+</html>
